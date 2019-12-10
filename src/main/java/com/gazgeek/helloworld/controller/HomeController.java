@@ -8,12 +8,12 @@ import com.boot.config.user;
 @RestController
 public class HomeController {
 
-    @RequestMapping("/")
-    String home() {
-    
-    	System.out.println(Harsha);
-    	
-        return "Hello from GazGeek!";
-    }
+	@RequestMapping("/")
+	String home() {
+
+		System.out.println("Harsha");
+
+		return "Hello from GazGeek!";
+	}
 
 }
